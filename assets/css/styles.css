@@ -58,7 +58,7 @@ a {
 /* Header */
 .header.fixed {
     position: sticky;
-    top: -28px;
+    top: -44px;
     background-color: #fff;
     z-index: 1;
 }
@@ -121,12 +121,11 @@ a {
 
 /* Hero */
 .hero {
-    padding-bottom: 79px;
+    padding: 42px 0 79px;
 }
 
 .hero .hero-body {
     display: flex;
-    margin-top: 42px;
 }
 
 .hero .left-side {
