@@ -27,6 +27,21 @@ body {
     line-height: 1.33;
 }
 
+.heading.lv3 {
+    font-size: 2.2rem;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
 :root {
     --primary-color: #def6f5;
 }
@@ -336,4 +351,114 @@ a {
     color: #9da6a5;
     font-size: 1.6rem;
     line-height: 1.7;
+}
+
+/* Courses */
+.courses {
+    padding: 51px 0 227px;
+}
+
+.courses .sub-desc {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.courses .heading {
+    margin-top: 18px;
+}
+
+.courses .row {
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    width: 525px;
+}
+
+.courses .c-link {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.courses .list-items {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.courses .item {
+    width: 31%;
+    position: relative;
+}
+
+.courses .img {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.35;
+    background: #d0efed;
+}
+
+.courses .info {
+    position: absolute;
+    left: 4.7%;
+    top: 89%;
+    width: 90.5%;
+    padding: 18px 0 29px 25px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses .info .free {
+    margin-top: 16px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.courses .info .free strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses .info .desc {
+    margin-top: 6px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    width: 275px;
+}
+
+.courses .sub-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.courses .desc-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+}
+
+.courses .desc-bottom::before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #1ebfc1;
 }
