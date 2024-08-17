@@ -462,3 +462,27 @@ a {
     height: 6px;
     background-color: #1ebfc1;
 }
+/* Information */
+.information {
+    padding: 186px 0 79px;
+}
+
+.information .list-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73.7%;
+    margin-left: 13.2%;
+}
+
+.information .list-info .number {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.information .list-info .desc {
+    margin-top: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
