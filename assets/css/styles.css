@@ -486,3 +486,135 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
 }
+
+/* Stats */
+.stats {
+    padding: 185px 0 79px;
+}
+
+.stats .stat-body {
+    display: flex;
+    height: 481px;
+}
+
+.stats .left-side {
+    width: 42%;
+}
+
+.stats .open-quotes {
+    margin-top: 37px;
+}
+
+.stats .desc {
+    width: 419px;
+    margin-top: 24px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.stats .name {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.stats .name::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    margin-right: 5px;
+}
+
+.stats .name strong {
+    color: #070707;
+    font-size: 1, 6rem;
+    font-weight: 500;
+}
+
+.stats .controls {
+    display: flex;
+    margin-top: 52px;
+    gap: 30px;
+}
+
+.stats .control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #2ac9bf;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #2ac9bf;
+}
+
+.stats .control-btn:hover {
+    background-color: #2ac9bf;
+    color: #fff;
+    cursor: pointer;
+}
+
+.stats .right-side {
+    width: 58%;
+    position: relative;
+}
+
+.stats .avatar {
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.stats .avatar.lv1 {
+    width: 235px;
+    height: 235px;
+    top: 107px;
+    right: 171px;
+    background-color: #ff8282;
+}
+
+.stats .avatar.lv2 {
+    width: 78px;
+    height: 78px;
+    right: 601px;
+    top: 258px;
+    background-color: #ffc147;
+}
+
+.stats .avatar.lv3 {
+    width: 78px;
+    height: 78px;
+    bottom: 0;
+    right: 389px;
+    background-color: #ff8282;
+}
+
+.stats .avatar.lv4 {
+    width: 110px;
+    height: 110px;
+    right: 0;
+    top: 19px;
+    background-color: #bf83ff;
+}
+
+.stats .avatar.lv5 {
+    width: 92px;
+    height: 92px;
+    top: 0;
+    right: 443px;
+    background-color: #1ebfc1;
+}
+
+.stats .avatar.lv6 {
+    width: 78px;
+    height: 78px;
+    bottom: 29px;
+    right: 32px;
+    background-color: #b1dfdc;
+}
