@@ -618,3 +618,28 @@ a {
     right: 32px;
     background-color: #b1dfdc;
 }
+
+/* Cta-list */
+
+.cta-list {
+    margin-top: 79px;
+    background-color: var(--primary-color);
+}
+
+.cta-body {
+    padding: 76px 0 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-list .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 18px;
+}
+
+.cta-list .btn {
+    border: none;
+    width: 186px;
+}
