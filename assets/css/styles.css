@@ -646,6 +646,7 @@ a {
 .cta-list .btn {
     border: none;
     width: 186px;
+    cursor: pointer;
 }
 
 /* Footer */
