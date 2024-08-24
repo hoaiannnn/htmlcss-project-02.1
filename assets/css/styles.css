@@ -42,6 +42,10 @@ body {
     --line-clamp: 2;
 }
 
+.line-clamp.line-3 {
+    --line-clamp: 3;
+}
+
 :root {
     --primary-color: #def6f5;
 }
@@ -642,4 +646,59 @@ a {
 .cta-list .btn {
     border: none;
     width: 186px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row .column:nth-child(1) {
+    width: 23%;
+}
+
+.footer .row .column:nth-child(2) {
+    width: 20%;
+}
+
+.footer .row .column:nth-child(3) {
+    width: 22%;
+}
+
+.footer .row .column:nth-child(4) {
+    width: 25%;
+}
+
+.footer .row .logo {
+    cursor: pointer;
+}
+
+.footer .row .heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .row .list li {
+    margin-top: 21px;
+}
+
+.footer .row .list li a {
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer .row .list li .social {
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
 }
